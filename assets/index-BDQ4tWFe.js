@@ -148,7 +148,7 @@ Error generating stack: `+o.message+`
   margin-bottom: 20px;
 `,fT=O(yn.h2)`
   font-size: 1.5rem;
-  color: white;
+  color: ;
   margin-bottom: 30px;
 `,dT=O.div`
   display: flex;
