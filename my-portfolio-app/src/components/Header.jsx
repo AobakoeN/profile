@@ -1,19 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
+import styled from 'styled-components';
 
-function Header() {
-  return (
-    <header className="header">
-      <nav>
-        <ul className="nav-list">
-          <li className="nav-item"><Link to="/">Home</Link></li>
-          <li className="nav-item"><Link to="/about">About</Link></li>
-          <li className="nav-item"><Link to="/projects">Projects</Link></li>
-          <li className="nav-item"><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
+const HeaderWrapper = styled.header`
+  padding: 20px;
+  background-color: ${props => props.theme.colors.dark};
+  color: ${props => props.theme.colors.light};
+`;
+
+const Header = () => (
+  <HeaderWrapper>
+    <Navbar />
+  </HeaderWrapper>
+);
 
 export default Header;

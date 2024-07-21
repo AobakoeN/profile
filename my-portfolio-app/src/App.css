@@ -1,54 +1,171 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-}
-
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-}
-
-header nav ul li {
-  margin: 0 1rem;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-header nav ul li a:hover {
-  text-decoration: underline;
-}
-
-main {
-  flex-grow: 1;
-  padding: 2rem;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  position: relative;
-  width: 100%;
-  bottom: 0;
-}
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base font size and family */
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8F9FA;
+    color: #343A40;
+    line-height: 1.6;
+  }
+  
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  a:hover {
+    color: #343A40;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Button styles */
+  button {
+    font-family: 'Arial', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #007BFF;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .header a {
+    color: white;
+  }
+  
+  .header a:hover {
+    color: #F8F9FA;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #343A40;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .footer a {
+    color: #F8F9FA;
+  }
+  
+  .footer a:hover {
+    color: #007BFF;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: #F8F9FA;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-size: 1rem;
+    color: #343A40;
+    margin-bottom: 5px;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #6C757D;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  form button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  form button:hover {
+    background-color: #343A40;
+  }
+  
+  /* Container styles */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Project card styles */
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F9FA;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    color: #343A40;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #6C757D;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .project-card a:hover {
+    color: #343A40;
+  }
+  
