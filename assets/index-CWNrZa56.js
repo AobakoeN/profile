@@ -77,7 +77,7 @@ Error generating stack: `+o.message+`
     margin: 0;
     padding: 0;
     background-color: #000000;
-    color: #000000;
+    color: white;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -148,7 +148,7 @@ Error generating stack: `+o.message+`
   margin-bottom: 20px;
 `,fT=O(yn.h2)`
   font-size: 1.5rem;
-  color: ;
+  color: white;
   margin-bottom: 30px;
 `,dT=O.div`
   display: flex;
@@ -306,4 +306,4 @@ Error generating stack: `+o.message+`
   &:hover {
     color: ${e=>e.theme.colors.dark};
   }
-`,zT=()=>{const[e,t]=P.useState({name:"",email:"",message:""}),n=i=>{t({...e,[i.target.name]:i.target.value})},r=i=>{i.preventDefault(),console.log(e)};return R.jsxs(_T,{children:[R.jsx(jT,{children:"Contact Me"}),R.jsxs(VT,{onSubmit:r,children:[R.jsx(Qa,{htmlFor:"name",children:"Name"}),R.jsx(Dh,{type:"text",id:"name",name:"name",value:e.name,onChange:n,required:!0}),R.jsx(Qa,{htmlFor:"email",children:"Email"}),R.jsx(Dh,{type:"email",id:"email",name:"email",value:e.email,onChange:n,required:!0}),R.jsx(Qa,{htmlFor:"message",children:"Message"}),R.jsx(NT,{id:"message",name:"message",value:e.message,onChange:n,required:!0}),R.jsx(IT,{type:"submit",children:"Send Message"})]}),R.jsxs(OT,{children:[R.jsx(FT,{children:"Email: aobakoenke@gmail.com"}),R.jsxs($T,{children:[R.jsx(Mh,{href:"https://github.com/your-username",target:"_blank",rel:"noopener noreferrer",children:R.jsx("i",{className:"fab fa-github"})}),R.jsx(Mh,{href:"https://linkedin.com/in/your-username",target:"_blank",rel:"noopener noreferrer",children:R.jsx("i",{className:"fab fa-linkedin"})})]})]})]})};function BT(){return R.jsxs(Ax,{theme:jx,children:[R.jsx(_x,{}),R.jsxs(Tw,{children:[R.jsx(Ox,{}),R.jsxs(vw,{children:[R.jsx(Xr,{path:"/",element:R.jsx(hT,{})}),R.jsx(Xr,{path:"/about",element:R.jsx(yT,{})}),R.jsx(Xr,{path:"/projects",element:R.jsx(MT,{})}),R.jsx(Xr,{path:"/contact",element:R.jsx(zT,{})})]}),R.jsx($x,{})]})]})}L1.render(R.jsx(Oe.StrictMode,{children:R.jsx(BT,{})}),document.getElementById("root"));
+`,zT=()=>{const[e,t]=P.useState({name:"",email:"",message:""}),n=i=>{t({...e,[i.target.name]:i.target.value})},r=i=>{i.preventDefault(),console.log(e)};return R.jsxs(_T,{children:[R.jsx(jT,{children:"Contact Me"}),R.jsxs(VT,{onSubmit:r,children:[R.jsx(Qa,{htmlFor:"name",children:"Name"}),R.jsx(Dh,{type:"text",id:"name",name:"name",value:e.name,onChange:n,required:!0}),R.jsx(Qa,{htmlFor:"email",children:"Email"}),R.jsx(Dh,{type:"email",id:"email",name:"email",value:e.email,onChange:n,required:!0}),R.jsx(Qa,{htmlFor:"message",children:"Message"}),R.jsx(NT,{id:"message",name:"message",value:e.message,onChange:n,required:!0}),R.jsx(IT,{type:"submit",children:"Send Message"})]}),R.jsxs(OT,{children:[R.jsx(FT,{children:"Email: aobakoenke@gmail.com"}),R.jsxs($T,{children:[R.jsx(Mh,{href:"https://github.com/your-username",target:"_blank",rel:"noopener noreferrer",children:R.jsx("i",{className:"fab fa-github"})}),R.jsx(Mh,{href:"https://linkedin.com/in/your-username",target:"_blank",rel:"noopener noreferrer",children:R.jsx("i",{className:"fab fa-linkedin"})})]})]})]})};function BT(){return R.jsxs(Ax,{theme:jx,children:[R.jsx(_x,{}),R.jsxs(Tw,{basename:"/profile",children:[R.jsx(Ox,{}),R.jsxs(vw,{children:[R.jsx(Xr,{path:"/",element:R.jsx(hT,{})}),R.jsx(Xr,{path:"/about",element:R.jsx(yT,{})}),R.jsx(Xr,{path:"/projects",element:R.jsx(MT,{})}),R.jsx(Xr,{path:"/contact",element:R.jsx(zT,{})})]}),R.jsx($x,{})]})]})}L1.render(R.jsx(Oe.StrictMode,{children:R.jsx(BT,{})}),document.getElementById("root"));
