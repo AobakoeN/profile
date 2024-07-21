@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import AnimatedButton from '../components/AnimatedButton';
-import backgroundImage from '../assets/images/IMG_BEF12E3DA9D2-1.jpg';
+import backgroundImage from '../assets/images/enhanced_image_v2.jpg';
 
 const HomePage = styled.div`
   display: flex;
@@ -19,13 +19,13 @@ const HomePage = styled.div`
 
 const Title = styled(motion.h1)`
   font-size: 3rem;
-  color: ${props => props.theme.colors.dark};
+  color: white;
   margin-bottom: 20px;
 `;
 
 const Subtitle = styled(motion.h2)`
   font-size: 1.5rem;
-  color: ${props => props.theme.colors.secondary};
+  color: white;
   margin-bottom: 30px;
 `;
 

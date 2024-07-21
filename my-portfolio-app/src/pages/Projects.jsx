@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProjectCard from '../components/ProjectCard';
+import project1Image from '../assets/images/Project1.jpeg';
+import project2Image from '../assets/images/Project2.jpeg';
+import project3Image from '../assets/images/Project3.jpeg';
 
 const ProjectsPage = styled.div`
   display: flex;
@@ -28,22 +31,22 @@ const Title = styled.h1`
 
 const projects = [
   {
-    title: 'Project 1',
-    imageSrc: '/assets/project1.jpg',
-    description: 'Description of Project 1. This project involves...',
-    pdfLink: '/assets/project1.pdf',
+    title: 'Project 1: Interfacing a pico-grid to a micro-grid (Prof. Cronje)',
+    imageSrc: project1Image,
+    description: 'Description of Project 1. This project explores the integration of a Pico Grid with a Micro Grid to enhance the efficiency of surplus energy utilization. By incorporating automation through microcontrollers and communication devices, the system enables real-time monitoring and control of power. Key components include a DC Power Supply, DC-DC Boost Converter, Grid Tie Inverter, and ESP8266 WiFi Board. The Pico Grid captures energy from local sources, which is then boosted in voltage by the Boost Converter for compatibility with the Grid Tie Inverter. The Inverter converts DC to AC, aligning it with the grid, while the ESP8266 facilitates wireless communication and data transfer. The project showcases successful scalability and the effectiveness of control algorithms in optimizing energy management.',
+    pdfLink: '/assets/documents/project1.pdf',
   },
   {
-    title: 'Project 2',
-    imageSrc: '/assets/project2.jpg',
-    description: 'Description of Project 2. This project is about...',
-    pdfLink: '/assets/project2.pdf',
+    title: 'Project 2: External Lightning Protection system for a clinic in Mbabane (Dr. Hugh Hunt)',
+    imageSrc: project2Image,
+    description: 'Description of Project 2. ',
+    pdfLink: '/assets/documents/project2.pdf',
   },
   {
-    title: 'Project 3',
-    imageSrc: '/assets/project3.jpg',
+    title: 'Project 3: The design of a backup solar renewable energy system for telecommunication towers in South Africa (Prof. D.D. Dorrell)',
+    imageSrc: project3Image,
     description: 'Description of Project 3. In this project, we...',
-    pdfLink: '/assets/project3.pdf',
+    pdfLink: '/assets/documents/project3.pdf',
   },
   // Add more projects here
 ];
